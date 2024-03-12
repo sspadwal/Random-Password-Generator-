@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(30, 66, 90)
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(30, 66, 90)
+}
+
+.sub-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 150px;
+    font-size: 40px;
+
+}
+
+.headings #heading1 {
+
+    color: white;
+}
+
+.headings #heading2 {
+
+    color: rgb(42, 161, 6);
+}
+
+.sub-container hr {
+    border: 1px solid rgb(42, 161, 6);
+    width: 18.7rem;
+}
+
+
+.sub-container #pass-container {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: 25rem;
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 45px;
+    display: inline-block;
+    overflow-y: hidden;
+}
+
+.sub-container #pass-container #copied {
+    display: inline-block;
+}
+
+.sub-container .headings #btn {
+    background-color: rgb(42, 161, 6);
+    color: white;
+    margin-top: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    border: none;
+
+}
